@@ -1,0 +1,424 @@
+2019-07-18 01:59:18 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fc4383eada0; archive(resolved)='<IDEArchive: 0x7fc44c088190>', distributionTask(resolved)='2', distributionDestination(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodMacAppStoreDistribution: 0x7fc463bc7a40>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc45ae94150; teamID='QXNMG5R4EQ', teamName='Burcu Mirza', teamType='Individual', username='burcu.mirza@gmail.com', isFreeProvisioningTeam='0'>'>
+	Chain (13, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fc4383eada0; archive = '<IDEArchive: 0x7fc44c088190>', distributionMethod='<IDEDistributionMethodMacAppStoreDistribution: 0x7fc463bc7a40>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc45ae94150; teamID='QXNMG5R4EQ', teamName='Burcu Mirza', teamType='Individual', username='burcu.mirza@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fc43bb10600; archive = '<IDEArchive: 0x7fc44c088190>', distributionMethod='<IDEDistributionMethodMacAppStoreDistribution: 0x7fc463bc7a40>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc45ae94150; teamID='QXNMG5R4EQ', teamName='Burcu Mirza', teamType='Individual', username='burcu.mirza@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc43bb300d0; archive = '<IDEArchive: 0x7fc44c088190>', distributionMethod='<IDEDistributionMethodMacAppStoreDistribution: 0x7fc463bc7a40>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc45ae94150; teamID='QXNMG5R4EQ', teamName='Burcu Mirza', teamType='Individual', username='burcu.mirza@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc43bb88d30; archive = '<IDEArchive: 0x7fc44c088190>', distributionMethod='<IDEDistributionMethodMacAppStoreDistribution: 0x7fc463bc7a40>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc45ae94150; teamID='QXNMG5R4EQ', teamName='Burcu Mirza', teamType='Individual', username='burcu.mirza@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc43a545300; archive = '<IDEArchive: 0x7fc44c088190>', distributionMethod='<IDEDistributionMethodMacAppStoreDistribution: 0x7fc463bc7a40>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc45ae94150; teamID='QXNMG5R4EQ', teamName='Burcu Mirza', teamType='Individual', username='burcu.mirza@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc43b826d40; archive = '<IDEArchive: 0x7fc44c088190>', distributionMethod='<IDEDistributionMethodMacAppStoreDistribution: 0x7fc463bc7a40>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc45ae94150; teamID='QXNMG5R4EQ', teamName='Burcu Mirza', teamType='Individual', username='burcu.mirza@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc43a46de70; archive = '<IDEArchive: 0x7fc44c088190>', distributionMethod='<IDEDistributionMethodMacAppStoreDistribution: 0x7fc463bc7a40>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc45ae94150; teamID='QXNMG5R4EQ', teamName='Burcu Mirza', teamType='Individual', username='burcu.mirza@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc43a41fdb0; archive = '<IDEArchive: 0x7fc44c088190>', distributionMethod='<IDEDistributionMethodMacAppStoreDistribution: 0x7fc463bc7a40>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc45ae94150; teamID='QXNMG5R4EQ', teamName='Burcu Mirza', teamType='Individual', username='burcu.mirza@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc437e70730; archive = '<IDEArchive: 0x7fc44c088190>', distributionMethod='<IDEDistributionMethodMacAppStoreDistribution: 0x7fc463bc7a40>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc45ae94150; teamID='QXNMG5R4EQ', teamName='Burcu Mirza', teamType='Individual', username='burcu.mirza@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc43a12fd40; archive = '<IDEArchive: 0x7fc44c088190>', distributionMethod='<IDEDistributionMethodMacAppStoreDistribution: 0x7fc463bc7a40>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc45ae94150; teamID='QXNMG5R4EQ', teamName='Burcu Mirza', teamType='Individual', username='burcu.mirza@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc43b8e25c0; archive = '<IDEArchive: 0x7fc44c088190>', distributionMethod='<IDEDistributionMethodMacAppStoreDistribution: 0x7fc463bc7a40>', team='(null)'>
+	<IDEDistributionContext: 0x7fc43a7ea700; archive = '<IDEArchive: 0x7fc44c088190>', distributionMethod='<IDEDistributionMethodMacAppStoreDistribution: 0x7fc463bc7a40>', team='(null)'>
+	<IDEDistributionContext: 0x7fc43b80cb90; archive = '<IDEArchive: 0x7fc44c088190>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fc4383eada0>
+2019-07-18 01:59:18 +0000  Processing step: IDEDistributionCreateDestRootStep
+2019-07-18 01:59:18 +0000  Processing step: IDEDistributionCopyItemStep
+2019-07-18 01:59:18 +0000  Running /usr/bin/ditto '-V' '/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app'
+2019-07-18 01:59:18 +0000  >>> Copying /Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app 
+2019-07-18 01:59:18 +0000  copying file ./Contents/_CodeSignature/CodeResources ... 
+2019-07-18 01:59:18 +0000  10486 bytes for ./Contents/_CodeSignature/CodeResources
+2019-07-18 01:59:18 +0000  copying file ./Contents/MacOS/Amazing Tic Tac Toe ... 
+2019-07-18 01:59:18 +0000  229152 bytes for ./Contents/MacOS/Amazing Tic Tac Toe
+2019-07-18 01:59:18 +0000  copying file ./Contents/Resources/AppIcon.icns ... 
+2019-07-18 01:59:18 +0000  83795 bytes for ./Contents/Resources/AppIcon.icns
+2019-07-18 01:59:18 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib ... 
+2019-07-18 01:59:18 +0000  36226 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib
+copying file ./Contents/Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib ... 
+2019-07-18 01:59:18 +0000  27505 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib
+2019-07-18 01:59:18 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib ... 
+2019-07-18 01:59:18 +0000  3733 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib
+copying file ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist ... 
+2019-07-18 01:59:18 +0000  445 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist
+2019-07-18 01:59:18 +0000  copying file ./Contents/Resources/Assets.car ... 
+2019-07-18 01:59:18 +0000  1000536 bytes for ./Contents/Resources/Assets.car
+copying file ./Contents/Resources/confetti_bg.gif ... 
+2019-07-18 01:59:18 +0000  138144 bytes for ./Contents/Resources/confetti_bg.gif
+2019-07-18 01:59:18 +0000  copying file ./Contents/Frameworks/libswiftAppKit.dylib ... 
+2019-07-18 01:59:18 +0000  241232 bytes for ./Contents/Frameworks/libswiftAppKit.dylib
+2019-07-18 01:59:18 +0000  copying symlink ./Contents/Frameworks/Reachability.framework/Resources ... 
+2019-07-18 01:59:18 +0000  linked ./Contents/Frameworks/Reachability.framework/Resources
+2019-07-18 01:59:18 +0000  copying file ./Contents/Frameworks/Reachability.framework/Versions/A/_CodeSignature/CodeResources ... 
+2019-07-18 01:59:18 +0000  2514 bytes for ./Contents/Frameworks/Reachability.framework/Versions/A/_CodeSignature/CodeResources
+2019-07-18 01:59:18 +0000  copying file ./Contents/Frameworks/Reachability.framework/Versions/A/Resources/Info.plist ... 
+2019-07-18 01:59:18 +0000  1235 bytes for ./Contents/Frameworks/Reachability.framework/Versions/A/Resources/Info.plist
+2019-07-18 01:59:18 +0000  copying file ./Contents/Frameworks/Reachability.framework/Versions/A/Reachability ... 
+2019-07-18 01:59:18 +0000  166928 bytes for ./Contents/Frameworks/Reachability.framework/Versions/A/Reachability
+2019-07-18 01:59:18 +0000  copying symlink ./Contents/Frameworks/Reachability.framework/Versions/Current ... 
+2019-07-18 01:59:18 +0000  linked ./Contents/Frameworks/Reachability.framework/Versions/Current
+copying symlink ./Contents/Frameworks/Reachability.framework/Reachability ... 
+2019-07-18 01:59:18 +0000  linked ./Contents/Frameworks/Reachability.framework/Reachability
+2019-07-18 01:59:18 +0000  copying file ./Contents/Frameworks/libswiftCoreImage.dylib ... 
+2019-07-18 01:59:18 +0000  49360 bytes for ./Contents/Frameworks/libswiftCoreImage.dylib
+copying file ./Contents/Frameworks/libswiftObjectiveC.dylib ... 
+2019-07-18 01:59:18 +0000  61008 bytes for ./Contents/Frameworks/libswiftObjectiveC.dylib
+copying file ./Contents/Frameworks/libswiftXPC.dylib ... 
+2019-07-18 01:59:18 +0000  44944 bytes for ./Contents/Frameworks/libswiftXPC.dylib
+copying file ./Contents/Frameworks/libswiftCore.dylib ... 
+2019-07-18 01:59:18 +0000  6553216 bytes for ./Contents/Frameworks/libswiftCore.dylib
+2019-07-18 01:59:18 +0000  copying file ./Contents/Frameworks/libswiftCoreGraphics.dylib ... 
+2019-07-18 01:59:18 +0000  202112 bytes for ./Contents/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Contents/Frameworks/libswiftMetal.dylib ... 
+2019-07-18 01:59:18 +0000  92400 bytes for ./Contents/Frameworks/libswiftMetal.dylib
+copying file ./Contents/Frameworks/libswiftCoreData.dylib ... 
+2019-07-18 01:59:18 +0000  98400 bytes for ./Contents/Frameworks/libswiftCoreData.dylib
+2019-07-18 01:59:18 +0000  copying file ./Contents/Frameworks/libswiftDispatch.dylib ... 
+2019-07-18 01:59:18 +0000  345920 bytes for ./Contents/Frameworks/libswiftDispatch.dylib
+copying file ./Contents/Frameworks/libswiftos.dylib ... 
+2019-07-18 01:59:18 +0000  74624 bytes for ./Contents/Frameworks/libswiftos.dylib
+2019-07-18 01:59:18 +0000  copying file ./Contents/Frameworks/libswiftCoreFoundation.dylib ... 
+2019-07-18 01:59:18 +0000  41120 bytes for ./Contents/Frameworks/libswiftCoreFoundation.dylib
+2019-07-18 01:59:18 +0000  copying file ./Contents/Frameworks/libswiftDarwin.dylib ... 
+2019-07-18 01:59:18 +0000  106432 bytes for ./Contents/Frameworks/libswiftDarwin.dylib
+2019-07-18 01:59:18 +0000  copying file ./Contents/Frameworks/libswiftQuartzCore.dylib ... 
+2019-07-18 01:59:18 +0000  58368 bytes for ./Contents/Frameworks/libswiftQuartzCore.dylib
+2019-07-18 01:59:18 +0000  copying file ./Contents/Frameworks/libswiftIOKit.dylib ... 
+2019-07-18 01:59:18 +0000  45008 bytes for ./Contents/Frameworks/libswiftIOKit.dylib
+2019-07-18 01:59:18 +0000  copying file ./Contents/Frameworks/libswiftFoundation.dylib ... 
+2019-07-18 01:59:18 +0000  3065280 bytes for ./Contents/Frameworks/libswiftFoundation.dylib
+2019-07-18 01:59:18 +0000  copying file ./Contents/Info.plist ... 
+2019-07-18 01:59:18 +0000  1830 bytes for ./Contents/Info.plist
+2019-07-18 01:59:18 +0000  copying file ./Contents/PkgInfo ... 
+2019-07-18 01:59:18 +0000  8 bytes for ./Contents/PkgInfo
+2019-07-18 01:59:18 +0000  /usr/bin/ditto exited with 0
+2019-07-18 01:59:18 +0000  Processing step: IDEDistributionEmbedProfileStep
+2019-07-18 01:59:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc43a7c1f10 'org.cocoapods.Reachability' '<DVTFilePath:0x7fc43a446790:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/Reachability.framework/Versions/A'>'>
+2019-07-18 01:59:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc43a7d8a50 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7fc449629cb0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftAppKit.dylib'>'>
+2019-07-18 01:59:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc43bb8d5a0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fc43bb03de0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCore.dylib'>'>
+2019-07-18 01:59:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc43a333220 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fc4370e8f50:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreData.dylib'>'>
+2019-07-18 01:59:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc4399c4300 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fc4372f70a0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'>
+2019-07-18 01:59:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc43bb06290 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fc43bb391a0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'>
+2019-07-18 01:59:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc44c0010c0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fc45bad9300:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreImage.dylib'>'>
+2019-07-18 01:59:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc43bb2fd10 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fc45cae08e0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftDarwin.dylib'>'>
+2019-07-18 01:59:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc43bb7a900 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fc436bf3570:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftDispatch.dylib'>'>
+2019-07-18 01:59:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc43bb14050 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fc437cb8590:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftFoundation.dylib'>'>
+2019-07-18 01:59:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc43a41fc90 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7fc436e9b290:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftIOKit.dylib'>'>
+2019-07-18 01:59:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc43b2c80f0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fc439e55790:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftMetal.dylib'>'>
+2019-07-18 01:59:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc448f6aae0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fc439d7fd80:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'>
+2019-07-18 01:59:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc43bb038d0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fc43a12b150:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'>
+2019-07-18 01:59:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc43a753f60 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7fc439e9e260:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftXPC.dylib'>'>
+2019-07-18 01:59:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc43823fb20 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fc43a5ae490:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftos.dylib'>'>
+2019-07-18 01:59:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc4383da7c0 'com.burcumirza.Tic-Tac-Toe' '<DVTFilePath:0x7fc43b5b3820:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app'>'>
+2019-07-18 01:59:18 +0000  Processing step: IDEDistributionItemRemovalStep
+2019-07-18 01:59:18 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2019-07-18 01:59:18 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2019-07-18 01:59:18 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2019-07-18 01:59:18 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2019-07-18 01:59:18 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2019-07-18 01:59:18 +0000  Processing step: IDEDistributionSymbolsStep
+2019-07-18 01:59:18 +0000  Processing symbols for A
+2019-07-18 01:59:18 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/Reachability.framework/Versions/A' '--link-dest' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/Reachability.framework/Versions' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ'
+2019-07-18 01:59:18 +0000  building file list ... 
+2019-07-18 01:59:18 +0000   0 files...2019-07-18 01:59:18 +0000  6 files to consider
+2019-07-18 01:59:18 +0000  A/
+2019-07-18 01:59:18 +0000  A/Resources/
+A/_CodeSignature/
+2019-07-18 01:59:18 +0000  
+sent 237 bytes  received 38 bytes  550.00 bytes/sec
+2019-07-18 01:59:18 +0000  total size is 166.68K  speedup is 620.64
+2019-07-18 01:59:18 +0000  /usr/bin/rsync exited with 0
+2019-07-18 01:59:18 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/dSYMs/' '--link-dest' '/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/dSYMs/' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ'
+2019-07-18 01:59:18 +0000  building file list ... 
+2019-07-18 01:59:18 +0000   0 files...2019-07-18 01:59:18 +0000  13 files to consider
+2019-07-18 01:59:18 +0000  ./
+2019-07-18 01:59:18 +0000  Amazing Tic Tac Toe.app.dSYM/
+Amazing Tic Tac Toe.app.dSYM/Contents/
+2019-07-18 01:59:18 +0000  Amazing Tic Tac Toe.app.dSYM/Contents/Resources/
+Amazing Tic Tac Toe.app.dSYM/Contents/Resources/DWARF/
+Reachability.framework.dSYM/
+Reachability.framework.dSYM/Contents/
+Reachability.framework.dSYM/Contents/Resources/
+Reachability.framework.dSYM/Contents/Resources/DWARF/
+2019-07-18 01:59:18 +0000  
+sent 498 bytes  received 74 bytes  1.12K bytes/sec
+2019-07-18 01:59:18 +0000  total size is 3.01M  speedup is 5520.81
+2019-07-18 01:59:18 +0000  /usr/bin/rsync exited with 0
+2019-07-18 01:59:18 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Symbols' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Reachability.framework.dSYM/Contents/Resources/Dwarf/Reachability'
+2019-07-18 01:59:19 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Reachability.framework.dSYM/Contents/Resources/Dwarf/Reachability [x86_64, 0.018284 seconds]:
+2019-07-18 01:59:19 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2019-07-18 01:59:19 +0000  Excluding symbols for libswiftAppKit.dylib
+2019-07-18 01:59:19 +0000  Excluding symbols for libswiftCore.dylib
+2019-07-18 01:59:19 +0000  Excluding symbols for libswiftCoreData.dylib
+2019-07-18 01:59:19 +0000  Excluding symbols for libswiftCoreFoundation.dylib
+2019-07-18 01:59:19 +0000  Excluding symbols for libswiftCoreGraphics.dylib
+2019-07-18 01:59:19 +0000  Excluding symbols for libswiftCoreImage.dylib
+2019-07-18 01:59:19 +0000  Excluding symbols for libswiftDarwin.dylib
+2019-07-18 01:59:19 +0000  Excluding symbols for libswiftDispatch.dylib
+2019-07-18 01:59:19 +0000  Excluding symbols for libswiftFoundation.dylib
+2019-07-18 01:59:19 +0000  Excluding symbols for libswiftIOKit.dylib
+2019-07-18 01:59:19 +0000  Excluding symbols for libswiftMetal.dylib
+2019-07-18 01:59:19 +0000  Excluding symbols for libswiftObjectiveC.dylib
+2019-07-18 01:59:19 +0000  Excluding symbols for libswiftQuartzCore.dylib
+2019-07-18 01:59:19 +0000  Excluding symbols for libswiftXPC.dylib
+2019-07-18 01:59:19 +0000  Excluding symbols for libswiftos.dylib
+2019-07-18 01:59:19 +0000  Processing symbols for Amazing Tic Tac Toe.app
+2019-07-18 01:59:19 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app' '--link-dest' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ'
+2019-07-18 01:59:19 +0000  building file list ... 
+2019-07-18 01:59:19 +0000   0 files...2019-07-18 01:59:19 +0000  45 files to consider
+2019-07-18 01:59:19 +0000  Amazing Tic Tac Toe.app/
+2019-07-18 01:59:19 +0000  Amazing Tic Tac Toe.app/Contents/
+Amazing Tic Tac Toe.app/Contents/Frameworks/
+Amazing Tic Tac Toe.app/Contents/Frameworks/Reachability.framework/
+Amazing Tic Tac Toe.app/Contents/Frameworks/Reachability.framework/Versions/
+Amazing Tic Tac Toe.app/Contents/Frameworks/Reachability.framework/Versions/A/
+2019-07-18 01:59:19 +0000  Amazing Tic Tac Toe.app/Contents/Frameworks/Reachability.framework/Versions/A/Resources/
+Amazing Tic Tac Toe.app/Contents/Frameworks/Reachability.framework/Versions/A/_CodeSignature/
+Amazing Tic Tac Toe.app/Contents/MacOS/
+Amazing Tic Tac Toe.app/Contents/Resources/
+Amazing Tic Tac Toe.app/Contents/Resources/Base.lproj/
+Amazing Tic Tac Toe.app/Contents/Resources/Base.lproj/Main.storyboardc/
+Amazing Tic Tac Toe.app/Contents/_CodeSignature/
+2019-07-18 01:59:19 +0000  
+sent 1.43K bytes  received 98 bytes  3.05K bytes/sec
+total size is 12.19M  speedup is 8183.11
+2019-07-18 01:59:19 +0000  /usr/bin/rsync exited with 0
+2019-07-18 01:59:19 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/dSYMs/' '--link-dest' '/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/dSYMs/' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ'
+2019-07-18 01:59:19 +0000  building file list ... 
+2019-07-18 01:59:19 +0000   0 files...2019-07-18 01:59:19 +0000  13 files to consider
+2019-07-18 01:59:19 +0000  ./
+2019-07-18 01:59:19 +0000  Amazing Tic Tac Toe.app.dSYM/
+Amazing Tic Tac Toe.app.dSYM/Contents/
+Amazing Tic Tac Toe.app.dSYM/Contents/Resources/
+Amazing Tic Tac Toe.app.dSYM/Contents/Resources/DWARF/
+Reachability.framework.dSYM/
+Reachability.framework.dSYM/Contents/
+Reachability.framework.dSYM/Contents/Resources/
+Reachability.framework.dSYM/Contents/Resources/DWARF/
+2019-07-18 01:59:19 +0000  
+sent 522 bytes  received 98 bytes  1.21K bytes/sec
+total size is 3.01M  speedup is 5093.39
+2019-07-18 01:59:19 +0000  /usr/bin/rsync exited with 0
+2019-07-18 01:59:19 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Symbols' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Amazing Tic Tac Toe.app.dSYM/Contents/Resources/Dwarf/Amazing Tic Tac Toe'
+2019-07-18 01:59:19 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Amazing Tic Tac Toe.app.dSYM/Contents/Resources/Dwarf/Amazing Tic Tac Toe [x86_64, 0.035544 seconds]:
+2019-07-18 01:59:19 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2019-07-18 01:59:19 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2019-07-18 01:59:19 +0000  Processing step: IDEDistributionAppThinningStep
+2019-07-18 01:59:19 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2019-07-18 01:59:19 +0000  Processing step: IDEDistributionArchThinningStep
+2019-07-18 01:59:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/Reachability.framework/Versions/A/Reachability' '-verify_arch' 'arm64e'
+2019-07-18 01:59:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-18 01:59:19 +0000  Skipping architecture thinning for item "Reachability" because arch "arm64e" wasn't found
+2019-07-18 01:59:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftAppKit.dylib' '-verify_arch' 'arm64e'
+2019-07-18 01:59:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-18 01:59:19 +0000  Skipping architecture thinning for item "libswiftAppKit.dylib" because arch "arm64e" wasn't found
+2019-07-18 01:59:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCore.dylib' '-verify_arch' 'arm64e'
+2019-07-18 01:59:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-18 01:59:19 +0000  Skipping architecture thinning for item "libswiftCore.dylib" because arch "arm64e" wasn't found
+2019-07-18 01:59:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreData.dylib' '-verify_arch' 'arm64e'
+2019-07-18 01:59:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-18 01:59:19 +0000  Skipping architecture thinning for item "libswiftCoreData.dylib" because arch "arm64e" wasn't found
+2019-07-18 01:59:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreFoundation.dylib' '-verify_arch' 'arm64e'
+2019-07-18 01:59:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-18 01:59:19 +0000  Skipping architecture thinning for item "libswiftCoreFoundation.dylib" because arch "arm64e" wasn't found
+2019-07-18 01:59:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreGraphics.dylib' '-verify_arch' 'arm64e'
+2019-07-18 01:59:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-18 01:59:19 +0000  Skipping architecture thinning for item "libswiftCoreGraphics.dylib" because arch "arm64e" wasn't found
+2019-07-18 01:59:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreImage.dylib' '-verify_arch' 'arm64e'
+2019-07-18 01:59:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-18 01:59:19 +0000  Skipping architecture thinning for item "libswiftCoreImage.dylib" because arch "arm64e" wasn't found
+2019-07-18 01:59:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftDarwin.dylib' '-verify_arch' 'arm64e'
+2019-07-18 01:59:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-18 01:59:19 +0000  Skipping architecture thinning for item "libswiftDarwin.dylib" because arch "arm64e" wasn't found
+2019-07-18 01:59:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftDispatch.dylib' '-verify_arch' 'arm64e'
+2019-07-18 01:59:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-18 01:59:19 +0000  Skipping architecture thinning for item "libswiftDispatch.dylib" because arch "arm64e" wasn't found
+2019-07-18 01:59:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftFoundation.dylib' '-verify_arch' 'arm64e'
+2019-07-18 01:59:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-18 01:59:19 +0000  Skipping architecture thinning for item "libswiftFoundation.dylib" because arch "arm64e" wasn't found
+2019-07-18 01:59:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftIOKit.dylib' '-verify_arch' 'arm64e'
+2019-07-18 01:59:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-18 01:59:19 +0000  Skipping architecture thinning for item "libswiftIOKit.dylib" because arch "arm64e" wasn't found
+2019-07-18 01:59:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftMetal.dylib' '-verify_arch' 'arm64e'
+2019-07-18 01:59:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-18 01:59:19 +0000  Skipping architecture thinning for item "libswiftMetal.dylib" because arch "arm64e" wasn't found
+2019-07-18 01:59:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftObjectiveC.dylib' '-verify_arch' 'arm64e'
+2019-07-18 01:59:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-18 01:59:19 +0000  Skipping architecture thinning for item "libswiftObjectiveC.dylib" because arch "arm64e" wasn't found
+2019-07-18 01:59:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftQuartzCore.dylib' '-verify_arch' 'arm64e'
+2019-07-18 01:59:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-18 01:59:19 +0000  Skipping architecture thinning for item "libswiftQuartzCore.dylib" because arch "arm64e" wasn't found
+2019-07-18 01:59:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftXPC.dylib' '-verify_arch' 'arm64e'
+2019-07-18 01:59:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-18 01:59:19 +0000  Skipping architecture thinning for item "libswiftXPC.dylib" because arch "arm64e" wasn't found
+2019-07-18 01:59:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftos.dylib' '-verify_arch' 'arm64e'
+2019-07-18 01:59:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-18 01:59:19 +0000  Skipping architecture thinning for item "libswiftos.dylib" because arch "arm64e" wasn't found
+2019-07-18 01:59:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/MacOS/Amazing Tic Tac Toe' '-verify_arch' 'arm64e'
+2019-07-18 01:59:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-07-18 01:59:19 +0000  Skipping architecture thinning for item "Amazing Tic Tac Toe" because arch "arm64e" wasn't found
+2019-07-18 01:59:19 +0000  Processing step: IDEDistributionODRStep
+2019-07-18 01:59:19 +0000  Processing step: IDEDistributionStripXattrsStep
+2019-07-18 01:59:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc43a7c1f10 'org.cocoapods.Reachability' '<DVTFilePath:0x7fc43a446790:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/Reachability.framework/Versions/A'>'>
+2019-07-18 01:59:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc43a7d8a50 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7fc449629cb0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftAppKit.dylib'>'>
+2019-07-18 01:59:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc43bb8d5a0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fc43bb03de0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCore.dylib'>'>
+2019-07-18 01:59:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc43a333220 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fc4370e8f50:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreData.dylib'>'>
+2019-07-18 01:59:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc4399c4300 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fc4372f70a0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'>
+2019-07-18 01:59:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc43bb06290 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fc43bb391a0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'>
+2019-07-18 01:59:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc44c0010c0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fc45bad9300:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreImage.dylib'>'>
+2019-07-18 01:59:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc43bb2fd10 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fc45cae08e0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftDarwin.dylib'>'>
+2019-07-18 01:59:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc43bb7a900 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fc436bf3570:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftDispatch.dylib'>'>
+2019-07-18 01:59:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc43bb14050 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fc437cb8590:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftFoundation.dylib'>'>
+2019-07-18 01:59:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc43a41fc90 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7fc436e9b290:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftIOKit.dylib'>'>
+2019-07-18 01:59:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc43b2c80f0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fc439e55790:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftMetal.dylib'>'>
+2019-07-18 01:59:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc448f6aae0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fc439d7fd80:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'>
+2019-07-18 01:59:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc43bb038d0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fc43a12b150:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'>
+2019-07-18 01:59:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc43a753f60 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7fc439e9e260:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftXPC.dylib'>'>
+2019-07-18 01:59:19 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc43823fb20 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fc43a5ae490:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftos.dylib'>'>
+2019-07-18 01:59:19 +0000  Running /usr/bin/xattr '-crs' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app'
+2019-07-18 01:59:20 +0000  /usr/bin/xattr exited with 0
+2019-07-18 01:59:20 +0000  Processing step: IDEDistributionCodesignStep
+2019-07-18 01:59:20 +0000  Entitlements for <IDEDistributionItem: 0x7fc43a7c1f10 'org.cocoapods.Reachability' '<DVTFilePath:0x7fc43a446790:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/Reachability.framework/Versions/A'>'>: {
+}
+2019-07-18 01:59:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc43a7c1f10 'org.cocoapods.Reachability' '<DVTFilePath:0x7fc43a446790:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/Reachability.framework/Versions/A'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementsL2VqJc
+2019-07-18 01:59:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'A1F90CA0EFF5CDAE484D939BFBB4038D478CA7E9' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementsL2VqJc' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/Reachability.framework/Versions/A'
+2019-07-18 01:59:20 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/Reachability.framework/Versions/A: replacing existing signature
+2019-07-18 01:59:20 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/Reachability.framework/Versions/A: signed bundle with Mach-O thin (x86_64) [org.cocoapods.Reachability]
+2019-07-18 01:59:20 +0000  /usr/bin/codesign exited with 0
+2019-07-18 01:59:20 +0000  Entitlements for <IDEDistributionItem: 0x7fc43a7d8a50 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7fc449629cb0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftAppKit.dylib'>'>: {
+}
+2019-07-18 01:59:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc43a7d8a50 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7fc449629cb0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftAppKit.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementscK7KkG
+2019-07-18 01:59:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'A1F90CA0EFF5CDAE484D939BFBB4038D478CA7E9' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementscK7KkG' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftAppKit.dylib'
+2019-07-18 01:59:20 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftAppKit.dylib: replacing existing signature
+2019-07-18 01:59:20 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftAppKit.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftAppKit]
+2019-07-18 01:59:20 +0000  /usr/bin/codesign exited with 0
+2019-07-18 01:59:20 +0000  Entitlements for <IDEDistributionItem: 0x7fc43bb8d5a0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fc43bb03de0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCore.dylib'>'>: {
+}
+2019-07-18 01:59:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc43bb8d5a0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fc43bb03de0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCore.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementsyHdQfe
+2019-07-18 01:59:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'A1F90CA0EFF5CDAE484D939BFBB4038D478CA7E9' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementsyHdQfe' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCore.dylib'
+2019-07-18 01:59:20 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCore.dylib: replacing existing signature
+2019-07-18 01:59:20 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCore.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCore]
+2019-07-18 01:59:20 +0000  /usr/bin/codesign exited with 0
+2019-07-18 01:59:20 +0000  Entitlements for <IDEDistributionItem: 0x7fc43a333220 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fc4370e8f50:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreData.dylib'>'>: {
+}
+2019-07-18 01:59:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc43a333220 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fc4370e8f50:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreData.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementsuB5HTd
+2019-07-18 01:59:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'A1F90CA0EFF5CDAE484D939BFBB4038D478CA7E9' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementsuB5HTd' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreData.dylib'
+2019-07-18 01:59:20 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreData.dylib: replacing existing signature
+2019-07-18 01:59:20 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreData.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreData]
+2019-07-18 01:59:20 +0000  /usr/bin/codesign exited with 0
+2019-07-18 01:59:20 +0000  Entitlements for <IDEDistributionItem: 0x7fc4399c4300 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fc4372f70a0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2019-07-18 01:59:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc4399c4300 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fc4372f70a0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementsBdYNT4
+2019-07-18 01:59:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'A1F90CA0EFF5CDAE484D939BFBB4038D478CA7E9' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementsBdYNT4' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreFoundation.dylib'
+2019-07-18 01:59:20 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2019-07-18 01:59:20 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreFoundation]
+2019-07-18 01:59:20 +0000  /usr/bin/codesign exited with 0
+2019-07-18 01:59:20 +0000  Entitlements for <IDEDistributionItem: 0x7fc43bb06290 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fc43bb391a0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2019-07-18 01:59:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc43bb06290 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fc43bb391a0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementszM3sVt
+2019-07-18 01:59:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'A1F90CA0EFF5CDAE484D939BFBB4038D478CA7E9' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementszM3sVt' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreGraphics.dylib'
+2019-07-18 01:59:20 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2019-07-18 01:59:20 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreGraphics]
+2019-07-18 01:59:20 +0000  /usr/bin/codesign exited with 0
+2019-07-18 01:59:20 +0000  Entitlements for <IDEDistributionItem: 0x7fc44c0010c0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fc45bad9300:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2019-07-18 01:59:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc44c0010c0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fc45bad9300:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlements0qqO7b
+2019-07-18 01:59:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'A1F90CA0EFF5CDAE484D939BFBB4038D478CA7E9' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlements0qqO7b' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreImage.dylib'
+2019-07-18 01:59:20 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2019-07-18 01:59:20 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftCoreImage.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreImage]
+2019-07-18 01:59:20 +0000  /usr/bin/codesign exited with 0
+2019-07-18 01:59:20 +0000  Entitlements for <IDEDistributionItem: 0x7fc43bb2fd10 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fc45cae08e0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2019-07-18 01:59:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc43bb2fd10 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fc45cae08e0:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementsmBde9M
+2019-07-18 01:59:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'A1F90CA0EFF5CDAE484D939BFBB4038D478CA7E9' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementsmBde9M' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftDarwin.dylib'
+2019-07-18 01:59:21 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2019-07-18 01:59:21 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftDarwin.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftDarwin]
+2019-07-18 01:59:21 +0000  /usr/bin/codesign exited with 0
+2019-07-18 01:59:21 +0000  Entitlements for <IDEDistributionItem: 0x7fc43bb7a900 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fc436bf3570:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2019-07-18 01:59:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc43bb7a900 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fc436bf3570:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementsmeSPSk
+2019-07-18 01:59:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'A1F90CA0EFF5CDAE484D939BFBB4038D478CA7E9' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementsmeSPSk' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftDispatch.dylib'
+2019-07-18 01:59:21 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2019-07-18 01:59:21 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftDispatch.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftDispatch]
+2019-07-18 01:59:21 +0000  /usr/bin/codesign exited with 0
+2019-07-18 01:59:21 +0000  Entitlements for <IDEDistributionItem: 0x7fc43bb14050 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fc437cb8590:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2019-07-18 01:59:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc43bb14050 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fc437cb8590:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementsdtLHb4
+2019-07-18 01:59:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'A1F90CA0EFF5CDAE484D939BFBB4038D478CA7E9' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementsdtLHb4' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftFoundation.dylib'
+2019-07-18 01:59:21 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2019-07-18 01:59:21 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftFoundation.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftFoundation]
+2019-07-18 01:59:21 +0000  /usr/bin/codesign exited with 0
+2019-07-18 01:59:21 +0000  Entitlements for <IDEDistributionItem: 0x7fc43a41fc90 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7fc436e9b290:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftIOKit.dylib'>'>: {
+}
+2019-07-18 01:59:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc43a41fc90 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7fc436e9b290:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftIOKit.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementskW7pCP
+2019-07-18 01:59:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'A1F90CA0EFF5CDAE484D939BFBB4038D478CA7E9' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementskW7pCP' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftIOKit.dylib'
+2019-07-18 01:59:21 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftIOKit.dylib: replacing existing signature
+2019-07-18 01:59:21 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftIOKit.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftIOKit]
+2019-07-18 01:59:21 +0000  /usr/bin/codesign exited with 0
+2019-07-18 01:59:21 +0000  Entitlements for <IDEDistributionItem: 0x7fc43b2c80f0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fc439e55790:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2019-07-18 01:59:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc43b2c80f0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fc439e55790:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementsVBbsT6
+2019-07-18 01:59:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'A1F90CA0EFF5CDAE484D939BFBB4038D478CA7E9' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementsVBbsT6' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftMetal.dylib'
+2019-07-18 01:59:21 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftMetal.dylib: replacing existing signature
+2019-07-18 01:59:21 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftMetal.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftMetal]
+2019-07-18 01:59:21 +0000  /usr/bin/codesign exited with 0
+2019-07-18 01:59:21 +0000  Entitlements for <IDEDistributionItem: 0x7fc448f6aae0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fc439d7fd80:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2019-07-18 01:59:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc448f6aae0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fc439d7fd80:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementsWpmPA3
+2019-07-18 01:59:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'A1F90CA0EFF5CDAE484D939BFBB4038D478CA7E9' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementsWpmPA3' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftObjectiveC.dylib'
+2019-07-18 01:59:21 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2019-07-18 01:59:21 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftObjectiveC.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftObjectiveC]
+2019-07-18 01:59:21 +0000  /usr/bin/codesign exited with 0
+2019-07-18 01:59:21 +0000  Entitlements for <IDEDistributionItem: 0x7fc43bb038d0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fc43a12b150:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2019-07-18 01:59:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc43bb038d0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fc43a12b150:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementskXpqSM
+2019-07-18 01:59:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'A1F90CA0EFF5CDAE484D939BFBB4038D478CA7E9' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementskXpqSM' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftQuartzCore.dylib'
+2019-07-18 01:59:21 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2019-07-18 01:59:21 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftQuartzCore.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftQuartzCore]
+2019-07-18 01:59:21 +0000  /usr/bin/codesign exited with 0
+2019-07-18 01:59:21 +0000  Entitlements for <IDEDistributionItem: 0x7fc43a753f60 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7fc439e9e260:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftXPC.dylib'>'>: {
+}
+2019-07-18 01:59:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc43a753f60 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7fc439e9e260:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftXPC.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlements0gENqY
+2019-07-18 01:59:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'A1F90CA0EFF5CDAE484D939BFBB4038D478CA7E9' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlements0gENqY' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftXPC.dylib'
+2019-07-18 01:59:21 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftXPC.dylib: replacing existing signature
+2019-07-18 01:59:21 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftXPC.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftXPC]
+2019-07-18 01:59:21 +0000  /usr/bin/codesign exited with 0
+2019-07-18 01:59:21 +0000  Entitlements for <IDEDistributionItem: 0x7fc43823fb20 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fc43a5ae490:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftos.dylib'>'>: {
+}
+2019-07-18 01:59:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc43823fb20 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fc43a5ae490:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftos.dylib'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementsKRpMii
+2019-07-18 01:59:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'A1F90CA0EFF5CDAE484D939BFBB4038D478CA7E9' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementsKRpMii' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftos.dylib'
+2019-07-18 01:59:21 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftos.dylib: replacing existing signature
+2019-07-18 01:59:21 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app/Contents/Frameworks/libswiftos.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftos]
+2019-07-18 01:59:21 +0000  /usr/bin/codesign exited with 0
+2019-07-18 01:59:21 +0000  Entitlements for <IDEDistributionItem: 0x7fc4383da7c0 'com.burcumirza.Tic-Tac-Toe' '<DVTFilePath:0x7fc43b5b3820:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app'>'>: {
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+    "com.apple.security.network.client" = 1;
+}
+2019-07-18 01:59:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc4383da7c0 'com.burcumirza.Tic-Tac-Toe' '<DVTFilePath:0x7fc43b5b3820:'/Users/ozanmirza/Library/Developer/Xcode/Archives/2019-07-17/Tic Tac Toe 7-17-19, 9.58 PM.xcarchive/Products/Applications/Amazing Tic Tac Toe.app'>'> to: /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementslLdtsD
+2019-07-18 01:59:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'A1F90CA0EFF5CDAE484D939BFBB4038D478CA7E9' '--entitlements' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/entitlementslLdtsD' '--preserve-metadata=identifier,flags,runtime' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app'
+2019-07-18 01:59:22 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app: replacing existing signature
+2019-07-18 01:59:22 +0000  /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app: signed app bundle with Mach-O thin (x86_64) [com.burcumirza.Tic-Tac-Toe]
+2019-07-18 01:59:22 +0000  /usr/bin/codesign exited with 0
+2019-07-18 01:59:22 +0000  Processing step: IDEDistributionZipODRItemStep
+2019-07-18 01:59:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-18 01:59:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-18 01:59:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-18 01:59:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-18 01:59:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-18 01:59:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-18 01:59:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-18 01:59:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-18 01:59:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-18 01:59:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-18 01:59:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-18 01:59:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-18 01:59:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-18 01:59:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-18 01:59:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-18 01:59:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-18 01:59:22 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-07-18 01:59:22 +0000  Processing step: IDEDistributionCreatePKGStep
+2019-07-18 01:59:22 +0000  Running /usr/bin/productbuild '--sign' '3rd Party Mac Developer Installer: Burcu Mirza (QXNMG5R4EQ)' '--symbolication' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Symbols' '--component' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app' '/Applications' '/var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Packages/Tic Tac Toe.pkg'
+2019-07-18 01:59:23 +0000  productbuild: Adding component at /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Root/Applications/Amazing Tic Tac Toe.app
+productbuild: Signing product with identity "3rd Party Mac Developer Installer: Burcu Mirza (QXNMG5R4EQ)" from keychain /Users/ozanmirza/Library/Keychains/login.keychain-db
+productbuild: Adding certificate "Apple Worldwide Developer Relations Certification Authority"
+productbuild: Adding certificate "Apple Root CA"
+productbuild: Wrote product to /var/folders/rh/520xs81j4xnb4j6wgfn12tf00000gn/T/XcodeDistPipeline.NQQ/Packages/Tic Tac Toe.pkg
+productbuild: Supported OS versions: [10.14, )
+2019-07-18 01:59:23 +0000  /usr/bin/productbuild exited with 0
+2019-07-18 01:59:23 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2019-07-18 01:59:23 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2019-07-18 01:59:23 +0000  Processing step: IDEDistributionCreateManifestStep
+2019-07-18 01:59:23 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so
