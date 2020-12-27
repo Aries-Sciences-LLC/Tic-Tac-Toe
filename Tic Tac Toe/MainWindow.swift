@@ -25,9 +25,6 @@ class MainWindow: NSWindowController {
             self.window?.appearance = NSAppearance(named: NSAppearance.Name.vibrantDark)
         }, immediately: true)
         
-        self.window!.hasShadow = false
-        self.window!.invalidateShadow()
-        
         // Lowering buttons
         let customToolbar = NSToolbar()
         customToolbar.showsBaselineSeparator = false

@@ -37,6 +37,7 @@ class ViewController: NSViewController {
     @IBOutlet weak var local_mutiplayer_ttl: NSButton!
     @IBOutlet weak var online_multiplayer_ttl: NSButton!
     @IBOutlet weak var localHeader: NSView!
+    @IBOutlet weak var title_animator: NSLayoutConstraint!
     
     var state : String = "Opening View"
     
@@ -144,7 +145,6 @@ class ViewController: NSViewController {
         beginnerModeBtn.frame.origin.y = -50
         
         Tic_Tac_Toe_Board.alphaValue = 0
-        main_title.alphaValue = 0
         
         oSelector.frame.origin.y = 0 - oSelector.frame.size.height
         xSelector.frame.origin.y = 0 - xSelector.frame.size.height
@@ -165,6 +165,43 @@ class ViewController: NSViewController {
         
         localHeader.alphaValue = 0.0
         
+        main_title.makeShadow()
+        localHeader.makeShadow()
+        Tic_Tac_Toe_Board.makeShadow()
+        singlePlayerActivator.makeShadow()
+        singlePlayerBtn.makeShadow()
+        multPlayerActivator.makeShadow()
+        multiplayerBtn.makeShadow()
+        singlePlayerTtl.makeShadow()
+        multiPlayerTtl.makeShadow()
+        highlighter.makeShadow()
+        xSelector.makeShadow()
+        oSelector.makeShadow()
+        selectCharacter.makeShadow()
+        backBtn.makeShadow()
+        expertModeBtn.makeShadow()
+        experiencedModeBtn.makeShadow()
+        beginnerModeBtn.makeShadow()
+        local_multiplayer.makeShadow()
+        local_mutiplayer_ttl.makeShadow()
+        peer_multiplayer.makeShadow()
+        online_multiplayer_ttl.makeShadow()
+    }
+    
+    override func viewDidAppear() {
+        NSAnimationContext.beginGrouping()
+        NSAnimationContext.current.duration = 1
+        title_animator.animator().constant = 350
+        singlePlayerBtn.animator().frame = CGRect(x: 88, y: 139, width: 200, height: 200)
+        multiplayerBtn.animator().frame = CGRect(x: self.view.frame.size.width - 288, y: 139, width: 200, height: 200)
+        singlePlayerTtl.animator().frame.origin.x = singlePlayerBtn.frame.origin.x
+        multiPlayerTtl.animator().frame.origin.x = multiplayerBtn.frame.origin.x
+        singlePlayerTtl.animator().frame.origin.y = singlePlayerBtn.frame.origin.y - 30
+        multiPlayerTtl.animator().frame.origin.y = multiplayerBtn.frame.origin.y - 30
+        singlePlayerActivator.frame.origin.x = singlePlayerBtn.frame.origin.x
+        multPlayerActivator.frame.origin.x = multiplayerBtn.frame.origin.x
+        NSAnimationContext.endGrouping()
+        
         Tic_Tac_Toe_Board.mainBoard.winCallback = { winner in
             let bg = NSButton(frame: self.view.bounds)
             bg.alphaValue = 0.0
@@ -177,17 +214,12 @@ class ViewController: NSViewController {
             self.view.addSubview(bg)
             
             NSAnimationContext.beginGrouping()
-            NSAnimationContext.current.duration = 1.0
+            NSAnimationContext.current.duration = 0.4
             bg.animator().alphaValue = 1.0
             NSAnimationContext.endGrouping()
             
-            DispatchQueue.main.asyncAfter(deadline: .now() + 1.0, execute: {
-                bg.action = #selector(self.dismissWinner(_:))
-            })
-            
-            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1.0, execute: {
+            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.4, execute: {
                 let animation = NSImageView(frame: bg.bounds)
-                animation.frame.origin.y = self.view.frame.size.height
                 animation.image = NSImage(byReferencing: URL(string: "https://media.giphy.com/media/xT9IgMgdur6larNA1a/giphy.gif")!)
                 animation.canDrawConcurrently = true
                 animation.canDrawSubviewsIntoLayer = true
@@ -195,50 +227,32 @@ class ViewController: NSViewController {
                 animation.imageScaling = NSImageScaling.scaleAxesIndependently
                 bg.addSubview(animation)
                 
-                let ttl = NSTextField(frame: NSRect(x: 20, y: (self.view.frame.size.height / 2) - 50, width: self.view.frame.size.width - 40, height: 75))
-                ttl.textColor = NSColor.white
-                ttl.stringValue = winner
-                ttl.alphaValue = 0.0
-                ttl.isBezeled = false
-                ttl.isBordered = false
-                ttl.isEditable = false
-                ttl.drawsBackground = false
-                ttl.font = NSFont.systemFont(ofSize: 60)
-                ttl.alignment = .center
-                bg.addSubview(ttl)
-                
-                NSAnimationContext.beginGrouping()
-                NSAnimationContext.current.duration = 1.0
-                animation.animator().frame.origin.y = 0
-                ttl.animator().alphaValue = 1.0
-                ttl.animator().frame.origin.y += 25
-                NSAnimationContext.endGrouping()
-                
                 if winner == "Computer Wins!" {
                     NSSound(named: "FAIL SOUND EFFECT")?.play()
                 } else {
                     NSSound(named: "Yay")?.play()
                 }
+                
+                let timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: false) { _ in
+                    let alert = NSAlert()
+                    alert.messageText = winner
+                    alert.informativeText = winner == "Computer Wins!" ? "Why don't you try again. I bet you'll get 'em next time!" : "Great job! Looks like your really getting the hang of this. Your looking like a pro already."
+                    alert.alertStyle = .informational
+                    alert.addButton(withTitle: "Cool, let's go again!")
+                    alert.beginSheetModal(for: self.view.window!) { response in
+                        self.dismissWinner(bg)
+                    }
+                }
             })
         }
     }
     
-    override func viewDidAppear() {
-        NSAnimationContext.beginGrouping()
-        NSAnimationContext.current.duration = 1
-        main_title.animator().alphaValue = 1
-        singlePlayerBtn.animator().frame = CGRect(x: 88, y: 139, width: 200, height: 200)
-        multiplayerBtn.animator().frame = CGRect(x: self.view.frame.size.width - 288, y: 139, width: 200, height: 200)
-        singlePlayerTtl.animator().frame.origin.x = singlePlayerBtn.frame.origin.x
-        multiPlayerTtl.animator().frame.origin.x = multiplayerBtn.frame.origin.x
-        singlePlayerTtl.animator().frame.origin.y = singlePlayerBtn.frame.origin.y - 30
-        multiPlayerTtl.animator().frame.origin.y = multiplayerBtn.frame.origin.y - 30
-        singlePlayerActivator.frame.origin.x = singlePlayerBtn.frame.origin.x
-        multPlayerActivator.frame.origin.x = multiplayerBtn.frame.origin.x
-        NSAnimationContext.endGrouping()
-    }
     @IBAction func activateSinglePlayerMode(_ sender: NSButton) {
         state = "CharacterSelection"
+        NSAnimationContext.beginGrouping()
+        NSAnimationContext.current.duration = 0.3
+        title_animator.animator().constant = 0
+        NSAnimationContext.endGrouping()
         NSAnimationContext.beginGrouping()
         NSAnimationContext.current.duration = 1
         singlePlayerBtn.animator().frame.origin.x = 0 - singlePlayerBtn.frame.size.width
@@ -258,6 +272,10 @@ class ViewController: NSViewController {
     }
     @IBAction func activateMultiPlayerMode(_ sender: NSButton) {
         state = "MultiPlayerSelector"
+        NSAnimationContext.beginGrouping()
+        NSAnimationContext.current.duration = 0.3
+        title_animator.animator().constant = 0
+        NSAnimationContext.endGrouping()
         NSAnimationContext.beginGrouping()
         NSAnimationContext.current.duration = 1
         singlePlayerBtn.animator().frame.origin.x = 0 - singlePlayerBtn.frame.size.width
@@ -281,6 +299,10 @@ class ViewController: NSViewController {
     @IBAction func reutrnToPreviousView(_ sender: Any) {
         if state == "CharacterSelection" || state == "MultiPlayerSelector" {
             state = "Opening View"
+            NSAnimationContext.beginGrouping()
+            NSAnimationContext.current.duration = 0.3
+            title_animator.animator().constant = 350
+            NSAnimationContext.endGrouping()
             NSAnimationContext.beginGrouping()
             NSAnimationContext.current.duration = 1
             singlePlayerBtn.animator().frame = CGRect(x: 88, y: 139, width: 200, height: 200)
@@ -484,5 +506,14 @@ class ViewController: NSViewController {
             
             self.reutrnToPreviousView(sender)
         }
+    }
+}
+
+extension NSView {
+    func makeShadow() {
+        self.shadow = NSShadow()
+        self.layer?.shadowOpacity = 1
+        self.layer?.shadowColor = NSColor.black.cgColor
+        self.layer?.shadowRadius = self.layer?.cornerRadius ?? 15
     }
 }

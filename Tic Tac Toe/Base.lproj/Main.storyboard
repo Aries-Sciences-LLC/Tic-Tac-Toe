@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17506"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -619,7 +620,7 @@
                                         <menuItem title="Show Sidebar" keyEquivalent="s" id="kIP-vf-haE">
                                             <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
                                             <connections>
-                                                <action selector="toggleSourceList:" target="Ady-hI-5gd" id="iwa-gc-5KM"/>
+                                                <action selector="toggleSidebar:" target="Ady-hI-5gd" id="iwa-gc-5KM"/>
                                             </connections>
                                         </menuItem>
                                         <menuItem title="Enter Full Screen" keyEquivalent="f" id="4J7-dP-txa">
@@ -684,9 +685,8 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" customClass="MainWindow" customModule="Amazing_Tic_Tac_Toe" customModuleProvider="target" sceneMemberID="viewController">
-                    <window key="window" title="Tic Tac Toe" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" titlebarAppearsTransparent="YES" titleVisibility="hidden" id="IQv-IB-iLA">
+                    <window key="window" title="Amazing Tic Tac Toe" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="alertPanel" titlebarAppearsTransparent="YES" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" texturedBackground="YES" fullSizeContentView="YES"/>
-                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="685" height="580"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
                         <connections>
@@ -714,23 +714,23 @@
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageAlignment="bottom" imageScaling="axesIndependently" image="bg" id="Qsg-zP-mrj"/>
                             </imageView>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="0kX-GJ-2Ov">
-                                <rect key="frame" x="18" y="510" width="676" height="50"/>
+                                <rect key="frame" x="38" y="411" width="4" height="89"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="buJ-VO-FPp"/>
+                                    <constraint firstAttribute="width" id="g7h-ML-8VY"/>
                                 </constraints>
-                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Amazing Tic Tac Toe" id="isG-70-C2r">
-                                    <font key="font" metaFont="system" size="40"/>
-                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="left" title="Welcome," id="isG-70-C2r">
+                                    <font key="font" size="65" name="Avenir-Black"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <customView translatesAutoresizingMaskIntoConstraints="NO" id="Ijg-vE-ouy">
-                                <rect key="frame" x="124" y="253" width="465" height="75"/>
+                                <rect key="frame" x="124" y="250" width="465" height="80"/>
                                 <subviews>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="nOL-pB-uAe">
-                                        <rect key="frame" x="-2" y="10" width="469" height="55"/>
+                                        <rect key="frame" x="-2" y="10" width="469" height="60"/>
                                         <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Pick who's going first!" id="o1U-HN-Ql1">
-                                            <font key="font" metaFont="system" size="45"/>
+                                            <font key="font" size="45" name="Futura-Medium"/>
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="backgroundColor" white="0.028913384699999999" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </textFieldCell>
@@ -739,7 +739,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="465" id="0Gc-ss-UiJ"/>
                                     <constraint firstAttribute="trailing" secondItem="nOL-pB-uAe" secondAttribute="trailing" id="cDK-lV-vTw"/>
-                                    <constraint firstAttribute="height" constant="75" id="cQo-Uj-VQb"/>
+                                    <constraint firstAttribute="height" constant="80" id="cQo-Uj-VQb"/>
                                     <constraint firstItem="nOL-pB-uAe" firstAttribute="leading" secondItem="Ijg-vE-ouy" secondAttribute="leading" id="lNu-uB-TOi"/>
                                     <constraint firstItem="nOL-pB-uAe" firstAttribute="centerY" secondItem="Ijg-vE-ouy" secondAttribute="centerY" id="q7U-gH-DnS"/>
                                     <constraint firstAttribute="bottom" secondItem="nOL-pB-uAe" secondAttribute="bottom" constant="10" id="sBr-r7-Vuq"/>
@@ -759,7 +759,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="bevel" title="Button" bezelStyle="rounded" alignment="center" transparent="YES" imageScaling="proportionallyDown" inset="2" id="fNb-fv-oud">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" size="13" name="Futura-Medium"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="beginSinglePlayer:" target="XfG-lQ-9wD" id="9ix-YJ-bhC"/>
@@ -781,7 +781,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="bevel" title="Button" bezelStyle="rounded" alignment="center" transparent="YES" imageScaling="proportionallyDown" inset="2" id="35c-JB-FWH">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" size="13" name="Futura-Medium"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="beginMultiPlayer:" target="XfG-lQ-9wD" id="vEf-hU-7aK"/>
@@ -792,7 +792,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
                                     <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9S1-tr-9fv">
-                                        <rect key="frame" x="109" y="-1" width="91" height="92"/>
+                                        <rect key="frame" x="109" y="5" width="80" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="sampleImg" id="iOb-CG-6K9"/>
                                     </imageView>
@@ -813,7 +813,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="bevel" title="Single Player" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="mHw-AI-nSz">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system" size="20"/>
+                                    <font key="font" size="20" name="Futura-Medium"/>
                                 </buttonCell>
                                 <color key="contentTintColor" white="0.028913384699999999" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
@@ -825,7 +825,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="bevel" title="Multi Player" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="VG9-JJ-Pg5">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system" size="20"/>
+                                    <font key="font" size="20" name="Futura-Medium"/>
                                 </buttonCell>
                                 <color key="contentTintColor" white="0.028913384699999999" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
@@ -841,7 +841,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="bevel" title="X" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="cWY-kg-5SC">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system" size="135"/>
+                                    <font key="font" size="135" name="Futura-Medium"/>
                                 </buttonCell>
                                 <color key="contentTintColor" red="0.1943328402" green="0.68253501689999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <connections>
@@ -853,7 +853,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="bevel" title="O" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="XHs-JY-nl6">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system" size="135"/>
+                                    <font key="font" size="135" name="Futura-Medium"/>
                                 </buttonCell>
                                 <color key="contentTintColor" red="0.25882352939999997" green="0.95686274510000002" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
@@ -865,7 +865,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="checkmark_icon" imagePosition="only" alignment="center" imageScaling="proportionallyDown" inset="2" id="SEL-iu-bbS">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" size="13" name="Futura-Medium"/>
                                 </buttonCell>
                                 <color key="contentTintColor" red="0.95686274510000002" green="0.25882352939999997" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
@@ -877,7 +877,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="doubleBackArrow" imagePosition="only" alignment="center" imageScaling="proportionallyDown" inset="2" id="Z7I-i7-0Yf">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" size="13" name="Futura-Medium"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="reutrnToPreviousView:" target="XfG-lQ-9wD" id="1Xf-0o-9V1"/>
@@ -888,7 +888,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="bevel" title="Expert" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="aE8-hE-j2k">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system" size="25"/>
+                                    <font key="font" size="25" name="Futura-Medium"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="expertModeActivated:" target="XfG-lQ-9wD" id="s9j-Og-1UG"/>
@@ -899,7 +899,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="bevel" title="Experienced" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="06y-BG-saO">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system" size="25"/>
+                                    <font key="font" size="25" name="Futura-Medium"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="experiencedModeActivated:" target="XfG-lQ-9wD" id="Tsf-AB-SaJ"/>
@@ -910,7 +910,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="bevel" title="Beginner" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="gc6-wY-It8">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system" size="25"/>
+                                    <font key="font" size="25" name="Futura-Medium"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="beginnerModeActivated:" target="XfG-lQ-9wD" id="hV9-6Y-HK5"/>
@@ -921,7 +921,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="local_icon" imagePosition="only" alignment="center" imageScaling="proportionallyDown" inset="2" id="zql-e0-iRO">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" size="13" name="Futura-Medium"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="createLocalGame:" target="XfG-lQ-9wD" id="nlz-Nd-bXu"/>
@@ -932,7 +932,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="bevel" title="Local Mutiplayer" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="oh3-JV-w8D">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system" size="20"/>
+                                    <font key="font" size="20" name="Futura-Medium"/>
                                 </buttonCell>
                                 <color key="contentTintColor" white="0.028913384699999999" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </button>
@@ -941,7 +941,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="Online Multiplayer" imagePosition="only" alignment="center" imageScaling="proportionallyDown" inset="2" id="YKQ-Yg-E8E">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" size="13" name="Futura-Medium"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="createOnlineGame:" target="XfG-lQ-9wD" id="QAK-cu-5LQ"/>
@@ -952,26 +952,24 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="bevel" title="Online Mutiplayer" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="auT-fT-dSN">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system" size="20"/>
+                                    <font key="font" size="20" name="Futura-Medium"/>
                                 </buttonCell>
                                 <color key="contentTintColor" white="0.028913384699999999" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </button>
                         </subviews>
                         <constraints>
                             <constraint firstItem="piU-0S-PXV" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="1ip-6Y-a3Q"/>
-                            <constraint firstItem="0kX-GJ-2Ov" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="ANt-Gn-euc"/>
+                            <constraint firstItem="0kX-GJ-2Ov" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="40" id="ANt-Gn-euc"/>
                             <constraint firstItem="piU-0S-PXV" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="HFo-7A-Idx"/>
                             <constraint firstItem="piU-0S-PXV" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="K21-i3-3D2"/>
                             <constraint firstItem="piU-0S-PXV" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="NJM-zt-DWT"/>
                             <constraint firstItem="8Rf-WI-VAY" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" constant="28" id="RFB-I4-Xtr"/>
                             <constraint firstItem="Ijg-vE-ouy" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="bRp-bN-oG1"/>
-                            <constraint firstAttribute="trailing" secondItem="0kX-GJ-2Ov" secondAttribute="trailing" constant="20" id="dMH-sQ-fbc"/>
-                            <constraint firstItem="0kX-GJ-2Ov" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="jXf-l0-OtZ"/>
                             <constraint firstItem="Ijg-vE-ouy" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="mvc-Ku-YUX"/>
                             <constraint firstItem="8Rf-WI-VAY" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="qzc-1S-fZe"/>
                             <constraint firstAttribute="trailing" secondItem="piU-0S-PXV" secondAttribute="trailing" id="rYS-l4-daZ"/>
                             <constraint firstAttribute="bottom" secondItem="piU-0S-PXV" secondAttribute="bottom" id="saf-Ms-gFW"/>
-                            <constraint firstItem="0kX-GJ-2Ov" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" id="val-5F-i7b"/>
+                            <constraint firstItem="0kX-GJ-2Ov" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="80" id="val-5F-i7b"/>
                         </constraints>
                     </view>
                     <connections>
@@ -995,6 +993,7 @@
                         <outlet property="singlePlayerActivator" destination="aUk-O7-qKD" id="wiH-vn-uE1"/>
                         <outlet property="singlePlayerBtn" destination="6B9-fz-Z6z" id="DR1-Ko-J71"/>
                         <outlet property="singlePlayerTtl" destination="uSR-1k-yqr" id="Csi-iq-4eQ"/>
+                        <outlet property="title_animator" destination="g7h-ML-8VY" id="OKa-Hn-2XH"/>
                         <outlet property="xSelector" destination="q8U-Se-rT0" id="Mku-X8-Tsc"/>
                     </connections>
                 </viewController>
@@ -1004,11 +1003,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Online Multiplayer" width="187" height="187"/>
+        <image name="Online Multiplayer" width="374" height="374"/>
         <image name="bg" width="190" height="190"/>
-        <image name="checkmark_icon" width="19.5" height="19.5"/>
-        <image name="doubleBackArrow" width="111.5" height="111.5"/>
-        <image name="local_icon" width="491.51998901367188" height="491.51998901367188"/>
-        <image name="sampleImg" width="192" height="192"/>
+        <image name="checkmark_icon" width="26" height="26"/>
+        <image name="doubleBackArrow" width="223" height="223"/>
+        <image name="local_icon" width="512" height="512"/>
+        <image name="sampleImg" width="256" height="256"/>
     </resources>
 </document>

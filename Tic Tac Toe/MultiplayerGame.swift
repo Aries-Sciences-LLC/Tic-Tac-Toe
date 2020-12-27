@@ -45,20 +45,22 @@ class MultiplayerGameViewController: NSViewController, WKNavigationDelegate {
     }
     
     override func viewDidLoad() {
-        NetworkManager.isReachable { _ in
-            self.initiateGame()
-        }
-        
-        NetworkManager.isUnreachable { _ in
-            self.displayInfo()
-        }
-        
         NetworkManager.sharedInstance.reachability.whenReachable = { _ in
             self.removeHelper((self.view.subviews.last! as? NSButton)!)
             self.initiateGame()
         }
         
         NetworkManager.sharedInstance.reachability.whenUnreachable = { _ in
+            self.displayInfo()
+        }
+    }
+    
+    override func viewDidAppear() {
+        NetworkManager.isReachable { _ in
+            self.initiateGame()
+        }
+        
+        NetworkManager.isUnreachable { _ in
             self.displayInfo()
         }
     }
@@ -72,47 +74,22 @@ class MultiplayerGameViewController: NSViewController, WKNavigationDelegate {
         self.gameView.navigationDelegate = self
         self.view.addSubview(self.gameView)
         
-        self.displayInfo()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+            self.displayInfo()
+        }
     }
     
     func displayInfo() {
-        let info = NSButton(frame: self.view.bounds)
-        info.isBordered = false
-        info.title = ""
-        info.wantsLayer = true
-        info.layer!.backgroundColor = NSColor.black.withAlphaComponent(0.7).cgColor
-        info.action = #selector(self.removeHelper(_:))
-        info.alphaValue = 0.0
-        self.view.addSubview(info)
-        
-        let info_container = NSView(frame: NSRect(x: (info.frame.size.width / 2) - 200, y: (info.frame.size.width / 2) - 100, width: 400, height: 200))
-        info_container.wantsLayer = true
-        info_container.layer!.cornerRadius = 20
-        info_container.layer!.backgroundColor = NSColor.black.cgColor
-        info_container.layer!.borderColor = NSColor.white.cgColor
-        info_container.layer!.borderWidth = 5
-        info.addSubview(info_container)
-        
-        let info_ttl = NSTextField(frame: NSRect(x: 20, y: 10, width: 360, height: 160))
-        info_ttl.isBezeled = false
-        info_ttl.isBordered = false
-        info_ttl.isEditable = false
-        info_ttl.drawsBackground = false
-        info_ttl.textColor = NSColor.white
-        info_ttl.alignment = .center
-        info_ttl.font = NSFont.systemFont(ofSize: 25)
-        info_ttl.stringValue = "Every player gets a room key, the player that goes second needs to change their room key to the other's and click enter to activate it."
-        info_container.addSubview(info_ttl)
-        
+        let alert = NSAlert()
+        alert.messageText = "Info"
+        alert.informativeText = "Every player gets a room key, the player that goes second needs to change their room key to the other's and click enter to activate it."
         NetworkManager.isUnreachable { _ in
-            info_ttl.stringValue = "Uh-Oh, looks like your internet connection is down. Please try reconnecting so that we can use the online mode."
+            alert.informativeText = "Uh-Oh, looks like your internet connection is down. Please try reconnecting so that we can use the online mode."
         }
-        
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-            NSAnimationContext.beginGrouping()
-            NSAnimationContext.current.duration = 1.0
-            info.animator().alphaValue = 1.0
-            NSAnimationContext.endGrouping()
+        alert.alertStyle = .informational
+        alert.addButton(withTitle: "Cool, I got my opponent. Let's go!")
+        alert.beginSheetModal(for: self.view.window!) { response in
+            
         }
     }
     
