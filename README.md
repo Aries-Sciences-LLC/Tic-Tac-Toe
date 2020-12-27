@@ -4,6 +4,6 @@
 This is my MacOSX Swift Cocoa app for the simple Tic Tac Toe Game, it has every different kinds of modes, leveled bots, local multiplayer, and global multiplayer.
 
 ![](https://github.com/Aries-Sciences-LLC/Tic-Tac-Toe/blob/master/ScreenShots/previews/homePage.png)
-![](https://github.com/Aries-Sciences-LLC/Tic-Tac-Toe/blob/master/ScreenShots/previews/inGameModes.png)
-![](https://github.com/Aries-Sciences-LLC/Tic-Tac-Toe/blob/master/ScreenShots/previews/singlePlayerSelector.png)
-![](https://github.com/Aries-Sciences-LLC/Tic-Tac-Toe/blob/master/ScreenShots/previews/multiPlayerSelector.png)
+![](https://github.com/Aries-Sciences-LLC/Tic-Tac-Toe/blob/master/ScreenShots/previews/inGameDemos.png)
+![](https://github.com/Aries-Sciences-LLC/Tic-Tac-Toe/blob/master/ScreenShots/previews/singlePlayerSelectors.png)
+![](https://github.com/Aries-Sciences-LLC/Tic-Tac-Toe/blob/master/ScreenShots/previews/multiPlayerSelectors.png)
